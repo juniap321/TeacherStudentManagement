@@ -166,7 +166,5 @@ def get_teachers(student_id):
         return jsonify({"error": str(e)}), 500
 
 
-
-
-if __name__ == '__main__':
-    app.run(host='192.168.215.170', port=9000)
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5000)
